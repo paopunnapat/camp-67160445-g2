@@ -7,28 +7,24 @@
 
   <form id="myForm" class="needs-validation" novalidate enctype="multipart/form-data">
 
-    {{-- ชื่อ --}}
     <div class="mb-3">
       <label for="fname" class="form-label">ชื่อ</label>
       <input type="text" class="form-control" id="fname" name="fname" placeholder="โปรดระบุ" required>
       <div class="invalid-feedback">กรุณากรอกชื่อ</div>
     </div>
 
-    {{-- นามสกุล --}}
     <div class="mb-3">
       <label for="fsurname" class="form-label">นามสกุล</label>
       <input type="text" class="form-control" id="fsurname" name="fsurname" placeholder="โปรดระบุ" required>
       <div class="invalid-feedback">กรุณากรอกนามสกุล</div>
     </div>
 
-    {{-- วันเดือนปีเกิด --}}
     <div class="mb-3">
       <label for="fbirth" class="form-label">วันเดือนปีเกิด</label>
       <input type="date" class="form-control" id="fbirth" name="fbirth" required>
       <div class="invalid-feedback">กรุณากรอกวันเดือนปีเกิด</div>
     </div>
 
-    {{-- เพศ (radio) --}}
     <div class="mb-3">
       <label class="form-label d-block">เพศ</label>
 
@@ -42,25 +38,21 @@
         <label class="form-check-label" for="female">หญิง</label>
       </div>
 
-      {{-- ข้อความของกลุ่ม radio ต้องทำให้โชว์เองด้วย JS --}}
       <div id="sexFeedback" class="invalid-feedback">กรุณาเลือกเพศ</div>
     </div>
 
-    {{-- รูป --}}
     <div class="mb-3">
       <label for="image" class="form-label">รูป</label>
       <input type="file" class="form-control" id="image" name="image" required>
       <div class="invalid-feedback">กรุณาอัปโหลดรูป</div>
     </div>
 
-    {{-- ที่อยู่ --}}
     <div class="mb-3">
       <label for="Address" class="form-label">ที่อยู่</label>
       <input type="text" class="form-control" id="Address" name="Address" placeholder="โปรดระบุ" required>
       <div class="invalid-feedback">กรุณากรอกที่อยู่</div>
     </div>
 
-    {{-- สีที่ชอบ --}}
     <div class="mb-3">
       <label for="color" class="form-label">สีที่ชอบ</label>
       <select class="form-select" id="color" name="color" required>
@@ -75,14 +67,12 @@
       <div class="invalid-feedback">กรุณาเลือกสีที่ชอบ</div>
     </div>
 
-    {{-- แนวเพลงที่ชอบ --}}
     <div class="mb-3">
       <label for="music" class="form-label">แนวเพลงที่ชอบ</label>
       <input type="text" class="form-control" id="music" name="music" placeholder="โปรดระบุ" required>
       <div class="invalid-feedback">กรุณากรอกแนวเพลงที่ชอบ</div>
     </div>
 
-    {{-- ยินยอม --}}
     <div class="mb-3">
       <div class="form-check">
         <input class="form-check-input" type="checkbox" id="Agree" name="Agree" required>
