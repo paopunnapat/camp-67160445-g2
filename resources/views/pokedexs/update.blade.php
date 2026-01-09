@@ -31,7 +31,7 @@
 
 <lable for="image_url">image_url</lable>
 <input class="form-control" type="url" name="image_url" id="image_url" value="{{$pokedex_update->image_url}}">
-
+<br>
 <button class="btn btn-primary" type="submit" name="submit" id="submit">submit</button>
 </form>
 

@@ -41,8 +41,7 @@
   }
 
   form {
-    
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
     padding: 20px;
     border-radius: 20px;
     width: auto;
@@ -60,6 +59,15 @@
 
   label {
     font-size: large;
+  }
+
+  table{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: auto;
   }
 </style>
 

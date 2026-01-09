@@ -32,9 +32,14 @@
             </a>
         </td>
         <td>
-            <a class="btn btn-warning" href="{{ url('/pokedexs/'.$item->id.'/edit')}}">
+            <form style="display:inline-block" action="{{ url('/pokedexs/'.$item->id.'/edit')}}" method="head">
+                @csrf
+                <button class="btn btn-warning">แก้ไข</button>
+            </form>
+
+            {{-- <a class="btn btn-warning" href="{{ url('/pokedexs/'.$item->id.'/edit')}}">
             แก้ไข
-            </a>
+            </a> --}}
             <form style="display:inline-block" action="{{url('/pokedexs/'. $item->id)}}" method="post">
                 @csrf
                 @method('delete')
