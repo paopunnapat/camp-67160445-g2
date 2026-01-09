@@ -1,4 +1,6 @@
 <table class="table">
+    <br>
+    <h1>Pokedex</h1>
     <tr>
         <td>id</td>
         <td>name</td>
